@@ -51,6 +51,11 @@
         "Name": "user",
         "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "primary",
+        "Type": "System.Boolean",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -59,6 +64,33 @@
         "MediaTypes": [
           "application/json"
         ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_10",
+    "RelativePath": "api/record/remove",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startTime",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]

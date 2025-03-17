@@ -18,23 +18,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-D4-qBmeZ.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-NCmnr94I.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-xW1B9rQo.js'))">
       <SourceType>Package</SourceType>
       <SourceId>TimeTrackerAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/TimeTrackerAPI</BasePath>
-      <RelativePath>assets/index-NCmnr94I.js</RelativePath>
+      <RelativePath>assets/index-xW1B9rQo.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h7csktyp86</Fingerprint>
-      <Integrity>zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c=</Integrity>
+      <Fingerprint>26pq9gu3yt</Fingerprint>
+      <Integrity>6oo4JWAmbW8C8UyB48lA5IuysRrlS8CauSSLmbiUJIk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-NCmnr94I.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-xW1B9rQo.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
       <SourceType>Package</SourceType>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xp86wjoiys</Fingerprint>
-      <Integrity>pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4=</Integrity>
+      <Fingerprint>iun2z6hp3c</Fingerprint>
+      <Integrity>xu+VUSyTSkb0DrObKH1IDU27YOPPbFnFP83Oghjegi8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

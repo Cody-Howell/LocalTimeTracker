@@ -79,6 +79,17 @@ export async function postRecord(s: TimeTrackRecord, auth: Auth): Promise<void> 
   await postResponse("/record/add", s, auth);
 }
 
-export async function getRecordsWithQuery(name: string, auth: Auth): Promise<Array<TimeTrackRecord>> {
-  return JSON.parse(await getResponse("/record/get?user=" + name, auth));
+export async function getRecordsWithQuery(name: string, bool: boolean, auth: Auth): Promise<Array<TimeTrackRecord>> {
+  const boolString = bool ? "true" : "false";
+  const query = "/record/get?user=" + name + "&primary=" + boolString;
+  console.log(`Inside query with this query string: ${query}`);
+  return JSON.parse(await getResponse(query, auth));
+}
+
+export async function removeRecord(startTime: Date, endTime: Date, auth: Auth): Promise<void> {
+  await postResponse(
+    "/record/remove",
+    { startTime: new Date(startTime).toISOString(), endTime: new Date(endTime).toISOString() },
+    auth
+  );
 }

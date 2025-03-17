@@ -3,3 +3,6 @@
 GET {{TimeTrackerAPI_HostAddress}}/api/users
 
 ###
+GET {{TimeTrackerAPI_HostAddress}}/api/record/get?user=&primary=false
+User: admin
+ApiKey: h**OhMv8pz_5%fgI^Zg@

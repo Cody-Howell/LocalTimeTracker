@@ -15,6 +15,7 @@ type PrimaryPageState = {
   longTextAreas: Array<string>,
   timeStarted: Date | null,
   primary: boolean,
+  queryPrimary: boolean,
   query: Array<TimeTrackRecord>,
   username: string
 }
@@ -32,6 +33,7 @@ export class PrimaryPage extends React.Component<PrimaryPageProps, PrimaryPageSt
       longTextAreas: ["", "", "", ""],
       timeStarted: null,
       primary: true,
+      queryPrimary: true,
       query: [],
       username: ""
     }
@@ -105,6 +107,10 @@ export class PrimaryPage extends React.Component<PrimaryPageProps, PrimaryPageSt
     this.setState({ primary: !this.state.primary })
   }
 
+  togglePrimaryQuery = (): void => {
+    this.setState({ queryPrimary: !this.state.queryPrimary })
+  }
+
   submitToServer = async (): Promise<void> => {
     const obj: TimeTrackRecord = {
       startTime: this.state.timeStarted === null ? new Date() : this.state.timeStarted,
@@ -125,6 +131,8 @@ export class PrimaryPage extends React.Component<PrimaryPageProps, PrimaryPageSt
       primaryProject: this.state.primary
     };
     await postRecord(obj, this.props.auth);
+    window.scrollTo({top: 0});
+    window.location.reload();
   }
 
   updateQuerySelector = async (s: string): Promise<void> => {
@@ -132,7 +140,7 @@ export class PrimaryPage extends React.Component<PrimaryPageProps, PrimaryPageSt
   }
 
   runQuery = async (): Promise<void> => {
-    const values = await getRecordsWithQuery(this.state.username, this.props.auth);
+    const values = await getRecordsWithQuery(this.state.username, this.state.queryPrimary, this.props.auth);
     this.setState({ query: values });
   }
 
@@ -245,21 +253,29 @@ export class PrimaryPage extends React.Component<PrimaryPageProps, PrimaryPageSt
           </div>
 
         </div>
-        <button style={{ width: "100%" }} onClick={this.submitToServer}>Submit</button>
+        <button style={{ width: "100%" }} onDoubleClick={this.submitToServer}>Submit (double-click)</button>
         <hr />
         <h2>Query</h2>
+        <label htmlFor='primaryQuery'>Primary: </label>
+        <input type='checkbox' id='primaryQuery' defaultChecked onClick={this.togglePrimaryQuery} />
         <select onChange={(e) => this.updateQuerySelector(e.target.value)}>
           <option value={""}>_</option>
           {this.state.people.map((value) => <option value={value}>{value}</option>)}
         </select>
-        <button onDoubleClick={this.runQuery}>Run Query</button>
+        <button onDoubleClick={this.runQuery}>Run Query (double-click)</button>
         <TimeRecordDisplay records={this.state.query} />
       </div>
     );
   }
 }
 
-class TimeRecordDisplay extends React.Component<{ records: Array<TimeTrackRecord> }, Record<string, never>> {
+class TimeRecordDisplay extends React.Component<{ records: Array<TimeTrackRecord> }, {copied: boolean}> {
+  constructor(props: { records: Array<TimeTrackRecord> }) {
+    super(props);
+    this.state = {
+      copied: false
+    }
+  }
   copyToClipboard = () => {
     const headersArray: Array<string> = [
       "startTime",
@@ -304,17 +320,21 @@ class TimeRecordDisplay extends React.Component<{ records: Array<TimeTrackRecord
     }
 
     navigator.clipboard.writeText(headersArray.join(';') + "\n" + content.join("\n"));
+
+    this.setState({copied: true});
   }
 
   render() {
     return (<>
       <button onClick={this.copyToClipboard}>Copy CSV to clipboard</button>
+      {this.state.copied && (<p style={{color: "green"}}>Copied!</p>)}
       {this.props.records.map((value, index) => <>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr" }} key={index + "TRD"}>
+        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr 80px" }} key={index + "TRD"}>
           <h2>Starting date: {new Date(value.startTime).toLocaleString()}</h2>
           <p>Attendees: {value.attended}</p>
           <p>Goals: {value.goal}</p>
           <p>Total Time: {Math.round(value.elapsedTime / 60 * 100) / 100}</p>
+          <p>Primary: {value.primaryProject ? "true" : "false"}</p>
         </div>
       </>)}
     </>)

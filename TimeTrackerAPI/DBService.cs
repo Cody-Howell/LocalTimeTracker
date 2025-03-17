@@ -37,9 +37,16 @@ public class DBService(IDbConnection conn) {
         conn.Execute(OrderId, record);
     }
 
-    public IEnumerable<TimeTrackRecord> GetRecords(string user = "") {
+    public IEnumerable<TimeTrackRecord> GetRecords(string user, bool primary) {
         user = '%' + user + '%';
-        var OrderId = "select starttime,endtime,attended,anticipatedduration,goal,finished,elapsedtime,additionalnotes,planning,eploration,testing,refactoring,implementation,debugging,other,primaryproject from records where attended like @user order by 1";
-        return conn.Query<TimeTrackRecord>(OrderId, new { user });
+        var OrderId = "select starttime,endtime,attended,anticipatedduration,goal,finished,elapsedtime,additionalnotes,planning,eploration,testing,refactoring,implementation,debugging,other,primaryproject from records where attended like @user and primaryproject = @primary order by 1";
+        return conn.Query<TimeTrackRecord>(OrderId, new { user, primary });
+    }
+
+    public void RemoveRecord(TimeTrackRecord record) {
+        record.StartTime -= new TimeSpan(6, 0, 0);
+        record.EndTime -= new TimeSpan(6, 0, 0);
+        var OrderId = "delete from records where starttime = @starttime and endtime = @endtime";
+        conn.Execute(OrderId, record);
     }
 }

@@ -9,9 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connString = builder.Configuration["DOTNET_DATABASE_STRING"] ?? throw new InvalidOperationException("Connection string for database not found.");
 Console.WriteLine("Connection String: " + connString);
+var dbConnector = new DatabaseConnector(connString);
 builder.Services.AddSingleton<IDbConnection>(provider =>
 {
-    return new NpgsqlConnection(connString);
+    return dbConnector.ConnectWithRetry();
 });
 builder.Services.AddSingleton<DBService>();
 
@@ -69,9 +70,14 @@ app.MapPost("/api/record/add", (DBService service, TimeTrackRecord record) =>
     service.AddRecord(record);
 });
 
-app.MapGet("/api/record/get", (DBService service, string user) =>
+app.MapGet("/api/record/get", (DBService service, string user, bool primary) =>
 {
-    return service.GetRecords(user);
+    return service.GetRecords(user, primary);
+});
+
+app.MapPost("/api/record/remove", (DBService service, DateTime startTime, DateTime endTime) =>
+{
+    service.RemoveRecord(new TimeTrackRecord { StartTime = startTime, EndTime = endTime });
 });
 
 app.MapFallbackToFile("index.html");

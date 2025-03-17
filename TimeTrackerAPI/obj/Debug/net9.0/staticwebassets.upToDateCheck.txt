@@ -1,8 +1,8 @@
-C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\vite.svg
-C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\assets\index-NCmnr94I.js
-C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\index.html
-C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\assets\index-D4-qBmeZ.css
+C:\Users\Cody\myCodeDir\Fun Projects\LocalTimeTracker\TimeTrackerAPI\wwwroot\vite.svg
+C:\Users\Cody\myCodeDir\Fun Projects\LocalTimeTracker\TimeTrackerAPI\wwwroot\assets\index-xW1B9rQo.js
+C:\Users\Cody\myCodeDir\Fun Projects\LocalTimeTracker\TimeTrackerAPI\wwwroot\index.html
+C:\Users\Cody\myCodeDir\Fun Projects\LocalTimeTracker\TimeTrackerAPI\wwwroot\assets\index-D4-qBmeZ.css
 wwwroot\assets\index-D4-qBmeZ.css
-wwwroot\assets\index-NCmnr94I.js
+wwwroot\assets\index-xW1B9rQo.js
 wwwroot\index.html
 wwwroot\vite.svg
