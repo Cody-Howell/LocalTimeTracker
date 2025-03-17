@@ -10,18 +10,17 @@ services:
       POSTGRES_DB: timetrackerdb
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
-    ports:
-      - 5432:5432
+    # ports:
+    #   - 5432:5432
     
-  # api:  
-  #   build: 
-  #     context: ./Project_8.API
-  #   environment:
-  #     - DOTNET_DATABASE_STRING=user=cody;password=123456abc;host=db;database=timetrackerdb;
-  #   links: 
-  #     - db:database
-  #   depends_on:
-  #     - db
-  #   ports:
-  #     - 4100:7050
+  api:  
+    build: 
+      context: ./TimeTrackerAPI
+    restart: always
+    environment:
+      - DOTNET_DATABASE_STRING=Host=db;Database=timetrackerdb;Username=cody;Password=123456abc;
+    depends_on:
+      - db
+    ports:
+      - 4100:8080
 

@@ -1,5 +1,5 @@
 async function getResponse(path: string, auth: Auth): Promise<string> {
-  const url = "https://localhost:7050/api";
+  const url = "/api";
   try {
     const response = await fetch(url + path, {
       headers: {
@@ -19,7 +19,7 @@ async function getResponse(path: string, auth: Auth): Promise<string> {
 }
 
 async function postResponse(path: string, obj: any, auth: Auth): Promise<string> {
-  const url = "https://localhost:7050/api";
+  const url = "/api";
   try {
     const response = await fetch(url + path, {
       method: "POST",
