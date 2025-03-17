@@ -1,0 +1,1382 @@
+{
+  "Version": 1,
+  "Hash": "nPH2bkJS6OD2u6yGGbj/OjQoEfy8lc1Aj7jJcWZ8YAM=",
+  "Source": "TimeTrackerAPI",
+  "BasePath": "_content/TimeTrackerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeTrackerAPI\\wwwroot",
+      "Source": "TimeTrackerAPI",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\3jpz5b39bn-69kjnsiwqx.gz",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "vite#[.{fingerprint=69kjnsiwqx}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\vite.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xj979drvbl",
+      "Integrity": "42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\vite.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\fglkmt0a70-h7csktyp86.gz",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "assets/index-NCmnr94I#[.{fingerprint=h7csktyp86}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-NCmnr94I.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jgk9przihw",
+      "Integrity": "04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-NCmnr94I.js"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\nwhj71xqco-xp86wjoiys.gz",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "index#[.{fingerprint=xp86wjoiys}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0x8gjaqkxa",
+      "Integrity": "3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\oftaxp4ntj-g1x2nr97me.gz",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "assets/index-D4-qBmeZ#[.{fingerprint=g1x2nr97me}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-D4-qBmeZ.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6akyijddt7",
+      "Integrity": "0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-D4-qBmeZ.css"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-D4-qBmeZ.css",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "assets/index-D4-qBmeZ#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g1x2nr97me",
+      "Integrity": "PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-D4-qBmeZ.css"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-NCmnr94I.js",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "assets/index-NCmnr94I#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h7csktyp86",
+      "Integrity": "zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-NCmnr94I.js"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\index.html",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xp86wjoiys",
+      "Integrity": "pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\vite.svg",
+      "SourceId": "TimeTrackerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\",
+      "BasePath": "_content/TimeTrackerAPI",
+      "RelativePath": "vite#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69kjnsiwqx",
+      "Integrity": "SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vite.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/index-D4-qBmeZ.css",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\oftaxp4ntj-g1x2nr97me.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001831501832"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-D4-qBmeZ.css",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-D4-qBmeZ.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-D4-qBmeZ.css.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\oftaxp4ntj-g1x2nr97me.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-D4-qBmeZ.g1x2nr97me.css",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\oftaxp4ntj-g1x2nr97me.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001831501832"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1x2nr97me"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-D4-qBmeZ.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-D4-qBmeZ.g1x2nr97me.css",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-D4-qBmeZ.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1x2nr97me"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-D4-qBmeZ.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNmHhYfVo6bdIj41+rGUuTXdpplZS/DFh77q0lxgv7o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-D4-qBmeZ.g1x2nr97me.css.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\oftaxp4ntj-g1x2nr97me.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1x2nr97me"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-D4-qBmeZ.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0tZ54dkXn8qLL3kF+Es9QQS7IjGMZMo9obLZ6HGpvl4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-NCmnr94I.h7csktyp86.js",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\fglkmt0a70-h7csktyp86.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013336712"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74980"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h7csktyp86"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-NCmnr94I.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-NCmnr94I.h7csktyp86.js",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-NCmnr94I.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h7csktyp86"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-NCmnr94I.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-NCmnr94I.h7csktyp86.js.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\fglkmt0a70-h7csktyp86.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h7csktyp86"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-NCmnr94I.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-NCmnr94I.js",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\fglkmt0a70-h7csktyp86.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013336712"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74980"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-NCmnr94I.js",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\assets\\index-NCmnr94I.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zbSNs+QvXFpqZXeSe4plQOePZpb/VhZqHB0MGfYaZ1c="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-NCmnr94I.js.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\fglkmt0a70-h7csktyp86.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-04QHAa2miD0+G4Hh1mkV1IJMpqkOeQCapnLCb+JfGBw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\nwhj71xqco-xp86wjoiys.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002564102564"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\nwhj71xqco-xp86wjoiys.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0="
+        }
+      ]
+    },
+    {
+      "Route": "index.xp86wjoiys.html",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\nwhj71xqco-xp86wjoiys.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002564102564"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xp86wjoiys"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4="
+        }
+      ]
+    },
+    {
+      "Route": "index.xp86wjoiys.html",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xp86wjoiys"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pb1OaejxJ2QzGXn498lbYdKeelYFM8w20DQmrWUqGZ4="
+        }
+      ]
+    },
+    {
+      "Route": "index.xp86wjoiys.html.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\nwhj71xqco-xp86wjoiys.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xp86wjoiys"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3HMFlDJiamjr548MFS3wx+QGd/fhJxrGgGiznBi38G0="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\3jpz5b39bn-69kjnsiwqx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001295336788"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 04:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 04:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\3jpz5b39bn-69kjnsiwqx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 04:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\3jpz5b39bn-69kjnsiwqx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001295336788"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 04:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 04:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg.gz",
+      "AssetFile": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\obj\\Debug\\net9.0\\compressed\\3jpz5b39bn-69kjnsiwqx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 04:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY="
+        }
+      ]
+    }
+  ]
+}

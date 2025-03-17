@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{407476BA-981F-4A9A-8F9D-4B0479AC3778}|TimeTrackerAPI.csproj|c:\\users\\cody\\mycodedir\\fun projects\\timetracker\\timetrackerapi\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407476BA-981F-4A9A-8F9D-4B0479AC3778}|TimeTrackerAPI.csproj|solutionrelative:dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407476BA-981F-4A9A-8F9D-4B0479AC3778}|TimeTrackerAPI.csproj|c:\\users\\cody\\mycodedir\\fun projects\\timetracker\\timetrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407476BA-981F-4A9A-8F9D-4B0479AC3778}|TimeTrackerAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407476BA-981F-4A9A-8F9D-4B0479AC3778}|TimeTrackerAPI.csproj|c:\\users\\cody\\mycodedir\\fun projects\\timetracker\\timetrackerapi\\classes\\timetrackrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407476BA-981F-4A9A-8F9D-4B0479AC3778}|TimeTrackerAPI.csproj|solutionrelative:classes\\timetrackrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 127,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0kAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T04:06:59.137Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimeTrackRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\Classes\\TimeTrackRecord.cs",
+              "RelativeDocumentMoniker": "Classes\\TimeTrackRecord.cs",
+              "ToolTip": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\Classes\\TimeTrackRecord.cs",
+              "RelativeToolTip": "Classes\\TimeTrackRecord.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T02:12:50.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBService.cs",
+              "DocumentMoniker": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\DBService.cs",
+              "RelativeDocumentMoniker": "DBService.cs",
+              "ToolTip": "C:\\Users\\Cody\\myCodeDir\\Fun Projects\\TimeTracker\\TimeTrackerAPI\\DBService.cs*",
+              "RelativeToolTip": "DBService.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAA6wCkAAAD+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T00:11:34.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

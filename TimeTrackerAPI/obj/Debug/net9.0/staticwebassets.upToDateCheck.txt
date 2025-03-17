@@ -1,0 +1,8 @@
+C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\vite.svg
+C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\assets\index-NCmnr94I.js
+C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\index.html
+C:\Users\Cody\myCodeDir\Fun Projects\TimeTracker\TimeTrackerAPI\wwwroot\assets\index-D4-qBmeZ.css
+wwwroot\assets\index-D4-qBmeZ.css
+wwwroot\assets\index-NCmnr94I.js
+wwwroot\index.html
+wwwroot\vite.svg

@@ -1,0 +1,38 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10%;
+  font-family: "Inter", sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+#sidebar a {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  color: lightcoral;
+}
+
+#userMap {
+  display: flex;
+  flex-direction: column;
+}
+#userMap div {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.inputAreas {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+.inputAreas input, .inputAreas textarea {
+  width: 80%;
+}
