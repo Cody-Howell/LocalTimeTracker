@@ -9,7 +9,7 @@ type PrimaryPageState = {
   people: Array<string>,
   selectedPeople: Array<string>,
   selectedTDD: string,
-  lastUpdatedTime: Date | null,
+  lastUpdatedTime: Date | null, 
   properties: Array<{ type: TDDNames, time: number }>,
   currentProperty: string,
   longTextAreas: Array<string>,
